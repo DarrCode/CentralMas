@@ -1,0 +1,88 @@
+{
+  "transactions": [
+    {
+      "action_type": 0,
+      "icon": "fa-solid fa-money-bill-transfer",
+      "action": "Pago a Jose vivas",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "$ 20.00",
+      "date": "20-02 5:06pm"
+    },
+    {
+      "action_type": 1,
+      "icon": "fa-solid fa-money-bill-transfer",
+      "action": "Recibido de Daniela",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "$ 32.00",
+      "date": "20-02 5:06pm"
+    },
+    {
+      "action_type": 1,
+      "icon": "fa-solid fa-arrow-right-arrow-left",
+      "action": "Conversion a Euros",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "€ 200.00",
+      "date": "20-02 5:06pm"
+    },
+    {
+      "action_type": 0,
+      "icon": "fa-solid fa-download",
+      "action": "Retiro",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "€ 100.00",
+      "date": "20-02 5:06pm"
+    },
+    {
+      "action_type": 1,
+      "icon": "fa-solid fa-upload",
+      "action": "Recarga",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "€ 847.00",
+      "date": "20-02 5:06pm"
+    },
+    {
+      "action_type": 1,
+      "icon": "fa-solid fa-download",
+      "action": "Retiro en efectivo",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "€ 100.00",
+      "date": "20-02 5:06pm"
+    },
+    {
+      "action_type": 0,
+      "icon": "fa-solid fa-money-bill-transfer",
+      "action": "Pago a Makao",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "Bs 12.37",
+      "date": "20-02 5:06pm"
+    },
+    {
+      "action_type": 0,
+      "icon": "fa-solid fa-download",
+      "action": "Retiro",
+      "direction": "822ade-f6b6-41df-a0ae-432a6a5b3bc8",
+      "amount": "€ 100.00",
+      "date": "20-02 5:06pm"
+    }
+  ],
+  "bank_account": [
+    {
+      "id": 1,
+      "name": "Account 1",
+      "description": "my account 1",
+      "number_account": "010203040506070809"
+    },
+    {
+      "id": 2,
+      "name": "Account 2",
+      "description": "my account 2",
+      "number_account": "010203040506070809"
+    },
+    {
+      "id": 3,
+      "name": "Account 3",
+      "description": "my account 3",
+      "number_account": "010203040506070809"
+    }
+  ]
+}

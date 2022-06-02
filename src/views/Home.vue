@@ -1,18 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<div>
+		<NavActions />
+    <div class="card mt-3">
+      <div class="card-body">
+        <Charts />
+        <Assets />
+      </div>
+    </div>
+	</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+  name: 'Dashboard',
+  components:{
+    NavActions: () => import(/* webpackChunkName: "navactions" */ '@/components/ui/navActions/NavActions'),
+    Charts: () => import(/* webpackChunkName: "charts" */ '@/components/home/Charts'),
+    Assets: () => import(/* webpackChunkName: "assets" */ '@/components/home/Assets'),
+  } 
 }
 </script>
