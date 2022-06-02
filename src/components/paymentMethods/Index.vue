@@ -163,7 +163,7 @@ export default {
       this.titleModal = 'Mas detalle sobre la cuenta'
       this.account = account
     },
-    editAccount(account, index) {
+    editAccount(index) {
       this.account = null
       this.modalEdit = true
 
@@ -189,7 +189,6 @@ export default {
       
     },
     updateAccount(dataForm){
-      console.log(dataForm);
       this.accounts = Array(dataForm)
       localStorage.setItem('accounts', JSON.stringify(dataForm))
       this.modal.hide()

@@ -64,25 +64,5 @@
       "amount": "€ 100.00",
       "date": "20-02 5:06pm"
     }
-  ],
-  "bank_account": [
-    {
-      "id": 1,
-      "name": "Account 1",
-      "description": "my account 1",
-      "number_account": "010203040506070809"
-    },
-    {
-      "id": 2,
-      "name": "Account 2",
-      "description": "my account 2",
-      "number_account": "010203040506070809"
-    },
-    {
-      "id": 3,
-      "name": "Account 3",
-      "description": "my account 3",
-      "number_account": "010203040506070809"
-    }
   ]
 }
